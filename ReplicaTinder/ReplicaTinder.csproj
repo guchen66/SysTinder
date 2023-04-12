@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\Fonts\iconfont.ttf" />
+    <None Remove="Assets\Images\Admin.png" />
+    <None Remove="Assets\Images\user.jpg" />
+    <None Remove="Assets\Images\安全防护.png" />
+    <None Remove="Assets\Images\权限.png" />
+    <None Remove="Assets\Images\病毒.png" />
+    <None Remove="Assets\Images\菜单.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Thinder.Utils\Thinder.Utils.csproj" />
+    <ProjectReference Include="..\Tinder.UI\Tinder.UI.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\iconfont.ttf" />
+    <Resource Include="Assets\Images\Admin.png" />
+    <Resource Include="Assets\Images\user.jpg" />
+    <Resource Include="Assets\Images\安全防护.png" />
+    <Resource Include="Assets\Images\权限.png" />
+    <Resource Include="Assets\Images\病毒.png" />
+    <Resource Include="Assets\Images\菜单.png" />
+  </ItemGroup>
+</Project>

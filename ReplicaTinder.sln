@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplicaTinder", "ReplicaTinder\ReplicaTinder.csproj", "{7B16C35B-9064-4B2E-B662-A97DAAB3E2BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tinder.UI", "Tinder.UI\Tinder.UI.csproj", "{8B874CD8-E8A3-40CE-BE07-17030E378A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinder.Utils", "Thinder.Utils\Thinder.Utils.csproj", "{5E266810-D8D6-490D-A0E8-086C24C496CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B16C35B-9064-4B2E-B662-A97DAAB3E2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B16C35B-9064-4B2E-B662-A97DAAB3E2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B16C35B-9064-4B2E-B662-A97DAAB3E2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B16C35B-9064-4B2E-B662-A97DAAB3E2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B874CD8-E8A3-40CE-BE07-17030E378A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B874CD8-E8A3-40CE-BE07-17030E378A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B874CD8-E8A3-40CE-BE07-17030E378A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B874CD8-E8A3-40CE-BE07-17030E378A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E266810-D8D6-490D-A0E8-086C24C496CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E266810-D8D6-490D-A0E8-086C24C496CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E266810-D8D6-490D-A0E8-086C24C496CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E266810-D8D6-490D-A0E8-086C24C496CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C53E5B6-0BBC-41BA-8024-6C5B712F40AC}
+	EndGlobalSection
+EndGlobal
